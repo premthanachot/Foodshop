@@ -27,7 +27,7 @@ const Header = () => {
                 </Link>
               </div>
               <div className="col-md-6 col-8 d-flex align-items-center">
-                <form className="input-group">
+                {/* <form className="input-group">
                   <input
                     type="search"
                     className="form-control rounded search"
@@ -36,7 +36,7 @@ const Header = () => {
                   <button type="submit" className="search-button">
                     search
                   </button>
-                </form>
+                </form> */}
               </div>
               <div className="col-md-3 d-flex align-items-center justify-content-end Login-Register">
                 {userInfo ? (
